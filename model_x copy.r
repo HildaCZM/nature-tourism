@@ -8,8 +8,6 @@ library("deSolve")
 library("xlsx")
 
 #Read file with non-linear functions
-#dir.file <- r"(/Users/hildazamoramaldonado/Library/Mobile Documents/com~apple~CloudDocs/Hilda_DocsMacBookAir/2. PROYECTOS/2023_a.1/Proyecto_2023/Model_1/Model_V0.0_c)"
-#dir.file<- setwd("/Users/hildazamoramaldonado/Library/Mobile Documents/com~apple~CloudDocs/Hilda_DocsMacBookAir/2. PROYECTOS/2023_a.1/Proyecto_2023/Model_1/Model_V0.0_c")
 setwd("/Users/hildazamoramaldonado/Library/Mobile Documents/com~apple~CloudDocs/Hilda_DocsMacBookAir/2. PROYECTOS/2023_a.1/Proyecto_2023/Model_1/Model_V0.0_c")
 #nef<- loadWorkbook(paste0(dir.file,"Non_Linear_Effects.xlsx"))#in windows
 nef<- loadWorkbook("Non_Linear_Effects_copy.xlsx")#in ios
